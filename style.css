@@ -357,7 +357,7 @@ section .title::after{
     width: 80%;
 }
 .skills-content .right .php::before{
-    width: 90%;
+    width: 30%;
 }
 
 /* contact section styling */
