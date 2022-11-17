@@ -165,9 +165,9 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    background: url("images/bg.jpg") no-repeat center;
+    background: linear-gradient(#076585, #fff);
     height: 100vh;
-    color: #fff;
+    color: #000;
     min-height: 500px;
     background-size: cover;
     background-attachment: fixed;
@@ -259,29 +259,31 @@ section .title::after{
 
 /* services section styling */
 .services, .teams{
-    color:#fff;
-    background: #111;
+    color:#000;
+    background: rgb(192, 213, 247);
 }
 .services .title::before,
 .teams .title::before{
-    background: #fff;
+    background: #000;
 }
 .services .title::after,
 .teams .title::after{
-    background: #111;
+    background: rgb(192, 213, 247);
     content: "what i provide";
 }
 .services .serv-content .card{
     width: calc(50% - 20px);
-    background: #222;
+    background: crimson;
     text-align: center;
     border-radius: 6px;
     padding: 50px 25px;
     cursor: pointer;
     transition: all 0.3s ease;
+    color: #fff;
 }
 .services .serv-content .card:hover{
     background: crimson;
+    color: #000;
 }
 .services .serv-content .card .box{
     transition: all 0.3s ease;
@@ -291,11 +293,11 @@ section .title::after{
 }
 .services .serv-content .card i{
     font-size: 50px;
-    color: crimson;
+    color: #fff;
     transition: color 0.3s ease;
 }
 .services .serv-content .card:hover i{
-    color: #fff;
+    color: #000;
 }
 .services .serv-content .card .text{
     font-size: 25px;
@@ -356,21 +358,21 @@ section .title::after{
 .skills-content .right .js::before{
     width: 80%;
 }
-.skills-content .right .php::before{
-    width: 30%;
+.skills-content .right .reactjs::before{
+    width: 50%;
 }
 
 /* contact section styling */
 .contact{
-    color: rgb(255, 255, 255);
-    background: rgb(17, 17, 17);
+    color: #000;
+    background: rgb(192,213, 247);
 
 }
 .contact .title::before, .teams .title::before {
-    background: #fff;
+    background: #000;
 }
 .contact .title::after{
-    background: #111;
+    background: rgb(192,213, 247);
     content: "get in touch";
 }
 .contact .contact-content .column{
